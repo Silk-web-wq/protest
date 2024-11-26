@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+ <head>
+<meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+<title> Protest My Gut!!</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="link rel="preconnect href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-
+free@6.6.0/css/fontawesome.min.css">
+ </head>  
+ <body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><img src="material/Screen_Shot_2024-09-21_at_12.15.07_PM-removebg-preview.png"></a>
+    <div class="nav-links" id="nav-links">
+        <i class="fa fa-window-close" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html"> HOME</a></li>
+            <li><a href="defenition.html"> DEFENITION</a></li>
+            <li><a href="Historical.html"> HISTORICAL</a></li>
+            <li><a href="world.html"> WORLD</a></li>
+            <li><a href="contact.html"> CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" ondblclick="showMenu()"></i>
+</nav>
+<h1>World Historical Events</h1>
+</section>
+
+<!----world events --->
+
+ <section class="world-events">
+<div class="row">
+        <div class="world-left">
+            <button class="play-video-btn" onclick="toggleVideo()">Play Video</button>
+            <video id="arabSpringVideo" src="material/Here's How the Arab Spring Started and How It Affected the World _ History - HISTORY (1080p, h264, youtube).mp4" controls style="display:none;"></video>
+        
+        <h2> The Arab Spring In 2010</h2>
+        <p> The Arab Spring, starting in 2010, was a wave of protests across the Middle East and North Africa,
+             sparked by the self-immolation of Mohamed Bouazizi in Tunisia. Citizens demanded political reform 
+             and the end of authoritarian regimes. Major uprisings occurred in Tunisia, Egypt, Libya, Syria, and more.
+              While some governments fell, others led to ongoing conflict and instability in the region.</p>
+              <br>
+              <p>It started in Tunisia when a street vendor, Mohamed Bouazizi, set himself on fire in protest against police
+                 corruption and ill-treatment, sparking nationwide protests that led to the ousting of President Zine El Abidine Ben Ali.
+                  This movement quickly spread to other countries, including Egypt, Libya, Syria, Yemen, and Bahrain, where citizens demanded
+                   political reform, social justice, and an end to authoritarian regimes.The Arab Spring significantly impacted the region's political
+                    landscape but also resulted in various challenges like instability, power vacuums, and humanitarian crises.</p>
+                    <br>
+                    <p> The Civil Rights Movement in the 1960s in the United States was a pivotal period of activism aimed at ending
+                         racial segregation and discrimination, primarily in the southern states. Led by figures like Martin Luther King Jr.,
+                          the movement used nonviolent protests, sit-ins, and marches to challenge unjust laws and societal norms, leading to
+                           landmark achievements like the Civil Rights Act of 1964 and the Voting Rights Act of 1965, which significantly improved
+                            rights for African Americans. Something similar to that is the ongoing indigenous rights movements. Ongoing movements 
+                            focus on protecting the rights, lands, and cultures of Indigenous peoples around the world. In regions like the Amazon,
+                             Australia, and North America, Indigenous communities have fought against environmental destruction, exploitation of their
+                              land, and the erosion of their traditional ways of life. These protests call for the recognition of their sovereignty,
+                               cultural heritage, and their vital role in preserving the environment. Some protests that are also ongoing until now 
+                               is the Palestinian protests. Palestinian protests are an enduring struggle for self-determination, justice, and the end
+                                of Israeli occupation in the West Bank and Gaza. Protests have been ongoing for decades, often sparked by evictions,
+                                 settlement expansions, and restrictions on Palestinian freedoms. Key movements like the Great March of Return in 2018 
+                                 saw mass demonstrations in Gaza demanding the right to return to ancestral lands and protesting the blockade and harsh living conditions.
+                                  The conflict remains a central issue in global discussions on human rights and international law.
+                                  <br>
+                                  <p> The summary above was based on general historical knowledge and commonly documented events:
+
+                                    1- <b>Civil Rights Movement</b>:
+                                    ."Eyes on the Prize" documentary series
+                                    . The Civil Rights Movement: A Photographic History by Steven Kasher
+                                    
+                                    2-<b>Indigenous Rights Movements</b>:
+                                    . United Nations Declaration on the Rights of Indigenous People (un.org)
+                                    .Survival International
+
+                                    3-<b>Palestine Protests</b>:
+                                    .The Question of Palestine by Edward Said
+                                    .United Nations Relief and Works Agency for Palestine Refugees (UNRWA) reports
+                                  </p>
+                                </div>
+                                <script>
+                                            function toggleVideo() {
+            var video = document.getElementById("arabSpringVideo");
+            if (video.style.display === "none") {
+                video.style.display = "block"; // Show the video
+                video.play(); // Play the video
+            } else {
+                video.style.display = "none"; // Hide the video
+                video.pause(); // Pause the video
+                video.currentTime = 0; // Reset video to the start
+            }
+        }
+    </script>
+                                    
+                                  <div class="comment-box">
+                                    <h3> Leave a comment</h3>
+
+                                    <form class="comment-form">
+                                        <input type="text" placeholder="Enter Name">
+                                        <input type="email" placeholder="Enter Enter Email">
+                                        <textarea rows="5" placeholder="Your comment"> 
+                                        </textarea>
+                                        <button type="Submit" class="hero-btn red-btn"> POST COMMENT</button>
+                                    </form>     
+                                </div>
+
+
+
+    </div>
+    <div class="world-right">
+        <h3>World Events Now</h3>
+        <table class="events-table">
+            <thead>
+                <tr>
+                    <th>Event</th>
+                    <th>Participants/Impact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Black Lives Matter</td>
+                    <td>67%</td>
+                </tr>
+                <tr>
+                    <td>Fridays For Future</td>
+                    <td>4 Million Participants</td>
+                </tr>
+                <tr>
+                    <td>Women's March</td>
+                    <td>63%</td>
+                </tr>
+                <tr>
+                    <td>Occupy Wall Street</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td>Extinction Rebellion</td>
+                    <td>30,000 Participants</td>
+                </tr>
+                <tr>
+                    <td>March on Washington</td>
+                    <td>250,000 Participants</td>
+                </tr>
+                <tr>
+                    <td>Civil Rights</td>
+                    <td>76%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    
+    
+
+
+
+
+</div>
+
+
+
+ </section> 
+
+
+
+
+
+
+<!---- footer --->
+<section class="footer">
+<h4>About Us</h4>
+<p>Class Website Project I.T in HTML, Subject: "Protests" by Alaa Mohammed Alyazidi</p>
+<div class="icons">
+    <i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-linkedin"></i>
+</div>
+<p> Made With <i class="fa fa-heart"></i> by Alaa Al-Yazidi</p>
+</section>
+
+
+<!----JavaScript for Toggle Menu------>
+<script>
+
+var navlinks = document.getElementById("nav-links");
+
+function showMenu(){
+    navlinks.style.right = "0";
+}
+function hideMenu() {
+    navlinks.style.right = "-200px";
+}
+</script>
+<script src="script.js"></script>
+ </body>
+ 
+</html>
