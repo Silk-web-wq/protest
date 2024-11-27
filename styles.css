@@ -659,4 +659,7 @@ audio {
     padding: 0;
     box-sizing: border-box;
 }
-
+.sub-header{
+height: auto;
+overflow: visible;
+}
