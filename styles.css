@@ -663,3 +663,43 @@ audio {
 height: auto;
 overflow: visible;
 }
+/* Universal Styles for Containers */
+.container, .content, .defi, .audio {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;  /* Ensure padding doesn't overflow */
+ }
+ 
+ h1, p {
+    margin: 10px 0;
+ }
+ 
+ .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+ 
+ .dfi-col, .defi-col {
+    flex: 1;
+    min-width: 300px;
+ }
+ 
+ img.styled-img {
+    max-width: 100%;
+    height: auto;
+ }
+ 
+ /* Mobile-friendly: Ensure no content is cut off */
+ @media (max-width: 768px) {
+    .row {
+       flex-direction: column;
+    }
+ 
+    .dfi-col, .defi-col {
+       flex: 1 100%;
+       margin-bottom: 20px;
+    }
+ }
+ 
