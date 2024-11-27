@@ -349,7 +349,7 @@ h3{
 /*---- defenition page -----*/
 
 .sub-header{
-    height: 50vh;
+    height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(143,51,57,0.7),rgba(143,51,57,0.7)),url(material/racial-injustice-protests-europe.webp);
     background-position: center;
@@ -645,3 +645,18 @@ audio {
     width: 100%;  
     outline: none;
 }
+.sub-header, .location, .contact-us {
+    min-height: auto;  
+    padding: 20px;      
+    overflow: visible;  
+}
+
+.sub-header h1, .location, .contact-us {
+    overflow: auto;  
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
